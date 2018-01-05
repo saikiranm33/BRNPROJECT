@@ -32,6 +32,7 @@
                         </subviews>
                         <color key="backgroundColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="Hll-5H-AWJ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="D4D-Op-a9P"/>
                             <constraint firstItem="nc6-Mu-a0h" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="anM-ZC-lKs"/>
                             <constraint firstItem="whz-fF-zCd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cIb-Fs-wMC"/>
                             <constraint firstItem="nc6-Mu-a0h" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="klB-gX-A8U"/>
@@ -42,6 +43,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-596" y="73"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="mbA-xM-gle">
+            <objects>
+                <viewController id="6Vy-DK-XhK" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fad-vX-WvR"/>
+                        <viewControllerLayoutGuide type="bottom" id="XC0-7c-KyF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5wZ-Ct-b7E">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.23404183983802795" green="0.057379968464374542" blue="0.22872704267501831" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6Vt-Yc-tKK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="652" y="68"/>
         </scene>
     </scenes>
 </document>
