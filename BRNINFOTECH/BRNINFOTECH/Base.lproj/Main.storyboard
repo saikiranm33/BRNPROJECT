@@ -25,11 +25,17 @@
                                 <rect key="frame" x="164.5" y="318.5" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hll-5H-AWJ">
+                                <rect key="frame" x="164.5" y="318.5" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="Hll-5H-AWJ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="D4D-Op-a9P"/>
                             <constraint firstItem="nc6-Mu-a0h" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="anM-ZC-lKs"/>
                             <constraint firstItem="nc6-Mu-a0h" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="klB-gX-A8U"/>
+                            <constraint firstItem="Hll-5H-AWJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tig-CC-NCr"/>
                         </constraints>
                     </view>
                 </viewController>
