@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Unknown constraint types" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -29,13 +30,19 @@
                                 <rect key="frame" x="164.5" y="318.5" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="803-ZM-SeT">
+                                <rect key="frame" x="164.5" y="318.5" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="Hll-5H-AWJ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="D4D-Op-a9P"/>
+                            <constraint firstItem="803-ZM-SeT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Bgm-Yo-ZsX"/>
+                            <constraint firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="D4D-Op-a9P"/>
                             <constraint firstItem="nc6-Mu-a0h" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="anM-ZC-lKs"/>
                             <constraint firstItem="whz-fF-zCd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cIb-Fs-wMC"/>
                             <constraint firstItem="nc6-Mu-a0h" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="klB-gX-A8U"/>
+                            <constraint firstItem="803-ZM-SeT" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ltx-VC-bs5"/>
                             <constraint firstItem="whz-fF-zCd" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="oez-XJ-XNX"/>
                         </constraints>
                     </view>
@@ -60,7 +67,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6Vt-Yc-tKK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="652" y="68"/>
+            <point key="canvasLocation" x="97" y="66"/>
         </scene>
     </scenes>
 </document>
